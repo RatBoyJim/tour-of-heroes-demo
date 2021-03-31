@@ -15,6 +15,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+import Amplify, { API } from 'aws-amplify';
+import aws_exports from '../aws-exports';
 
 @NgModule({
   imports: [

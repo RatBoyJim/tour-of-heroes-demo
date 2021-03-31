@@ -15,7 +15,7 @@
       "function": {
         "tohAPIfunction": {
           "deploymentBucketName": "amplify-tourofheroesdemo-dev-95555-deployment",
-          "s3Key": "amplify-builds/tohAPIfunction-385a746f384d57527046-build.zip"
+          "s3Key": "amplify-builds/tohAPIfunction-685057586d3949754a6c-build.zip"
         }
       }
     }
