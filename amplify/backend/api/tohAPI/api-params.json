@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/heroes",
+            "lambdaFunction": "tohAPIfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/heroes"
+        }
+    ],
+    "resourceName": "tohAPI",
+    "apiName": "tohAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "tohAPIfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-tourofheroesdemo-dev-95555-authRole",
+        "unAuthRoleName": "amplify-tourofheroesdemo-dev-95555-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "tohAPIfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

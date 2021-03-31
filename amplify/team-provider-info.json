@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tourofheroesdemo-dev-95555-authRole",
+      "UnauthRoleArn": "arn:aws:iam::894180678296:role/amplify-tourofheroesdemo-dev-95555-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::894180678296:role/amplify-tourofheroesdemo-dev-95555-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-tourofheroesdemo-dev-95555-deployment",
+      "UnauthRoleName": "amplify-tourofheroesdemo-dev-95555-unauthRole",
+      "StackName": "amplify-tourofheroesdemo-dev-95555",
+      "StackId": "arn:aws:cloudformation:eu-west-2:894180678296:stack/amplify-tourofheroesdemo-dev-95555/e8ba0d40-91fe-11eb-9d22-0646c4e2dd1e",
+      "AmplifyAppId": "d98d8dvujlw3b"
+    },
+    "categories": {
+      "function": {
+        "tohAPIfunction": {
+          "deploymentBucketName": "amplify-tourofheroesdemo-dev-95555-deployment",
+          "s3Key": "amplify-builds/tohAPIfunction-385a746f384d57527046-build.zip"
+        }
+      }
+    }
+  }
+}
